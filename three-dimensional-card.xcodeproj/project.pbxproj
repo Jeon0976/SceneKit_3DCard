@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50638CC2C6498E700B644FF /* three_dimensional_cardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638CB2C6498E700B644FF /* three_dimensional_cardApp.swift */; };
+		C50638CE2C6498E700B644FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638CD2C6498E700B644FF /* ContentView.swift */; };
+		C50638D02C6498E800B644FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50638CF2C6498E800B644FF /* Assets.xcassets */; };
+		C50638D32C6498E800B644FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50638D22C6498E800B644FF /* Preview Assets.xcassets */; };
+		C50638DD2C6498E800B644FF /* three_dimensional_cardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638DC2C6498E800B644FF /* three_dimensional_cardTests.swift */; };
+		C50638E72C6498E800B644FF /* three_dimensional_cardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638E62C6498E800B644FF /* three_dimensional_cardUITests.swift */; };
+		C50638E92C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638E82C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C50638D92C6498E800B644FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50638C02C6498E700B644FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50638C72C6498E700B644FF;
+			remoteInfo = "three-dimensional-card";
+		};
+		C50638E32C6498E800B644FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50638C02C6498E700B644FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50638C72C6498E700B644FF;
+			remoteInfo = "three-dimensional-card";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C50638C82C6498E700B644FF /* three-dimensional-card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "three-dimensional-card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50638CB2C6498E700B644FF /* three_dimensional_cardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three_dimensional_cardApp.swift; sourceTree = "<group>"; };
+		C50638CD2C6498E700B644FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C50638CF2C6498E800B644FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C50638D22C6498E800B644FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C50638D82C6498E800B644FF /* three-dimensional-cardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "three-dimensional-cardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50638DC2C6498E800B644FF /* three_dimensional_cardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three_dimensional_cardTests.swift; sourceTree = "<group>"; };
+		C50638E22C6498E800B644FF /* three-dimensional-cardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "three-dimensional-cardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50638E62C6498E800B644FF /* three_dimensional_cardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three_dimensional_cardUITests.swift; sourceTree = "<group>"; };
+		C50638E82C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three_dimensional_cardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50638C52C6498E700B644FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50638D52C6498E800B644FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50638DF2C6498E800B644FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50638BF2C6498E700B644FF = {
+			isa = PBXGroup;
+			children = (
+				C50638CA2C6498E700B644FF /* three-dimensional-card */,
+				C50638DB2C6498E800B644FF /* three-dimensional-cardTests */,
+				C50638E52C6498E800B644FF /* three-dimensional-cardUITests */,
+				C50638C92C6498E700B644FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C50638C92C6498E700B644FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50638C82C6498E700B644FF /* three-dimensional-card.app */,
+				C50638D82C6498E800B644FF /* three-dimensional-cardTests.xctest */,
+				C50638E22C6498E800B644FF /* three-dimensional-cardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50638CA2C6498E700B644FF /* three-dimensional-card */ = {
+			isa = PBXGroup;
+			children = (
+				C50638CB2C6498E700B644FF /* three_dimensional_cardApp.swift */,
+				C50638CD2C6498E700B644FF /* ContentView.swift */,
+				C50638CF2C6498E800B644FF /* Assets.xcassets */,
+				C50638D12C6498E800B644FF /* Preview Content */,
+			);
+			path = "three-dimensional-card";
+			sourceTree = "<group>";
+		};
+		C50638D12C6498E800B644FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C50638D22C6498E800B644FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C50638DB2C6498E800B644FF /* three-dimensional-cardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C50638DC2C6498E800B644FF /* three_dimensional_cardTests.swift */,
+			);
+			path = "three-dimensional-cardTests";
+			sourceTree = "<group>";
+		};
+		C50638E52C6498E800B644FF /* three-dimensional-cardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C50638E62C6498E800B644FF /* three_dimensional_cardUITests.swift */,
+				C50638E82C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift */,
+			);
+			path = "three-dimensional-cardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C50638C72C6498E700B644FF /* three-dimensional-card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50638EC2C6498E800B644FF /* Build configuration list for PBXNativeTarget "three-dimensional-card" */;
+			buildPhases = (
+				C50638C42C6498E700B644FF /* Sources */,
+				C50638C52C6498E700B644FF /* Frameworks */,
+				C50638C62C6498E700B644FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "three-dimensional-card";
+			productName = "three-dimensional-card";
+			productReference = C50638C82C6498E700B644FF /* three-dimensional-card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C50638D72C6498E800B644FF /* three-dimensional-cardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50638EF2C6498E800B644FF /* Build configuration list for PBXNativeTarget "three-dimensional-cardTests" */;
+			buildPhases = (
+				C50638D42C6498E800B644FF /* Sources */,
+				C50638D52C6498E800B644FF /* Frameworks */,
+				C50638D62C6498E800B644FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50638DA2C6498E800B644FF /* PBXTargetDependency */,
+			);
+			name = "three-dimensional-cardTests";
+			productName = "three-dimensional-cardTests";
+			productReference = C50638D82C6498E800B644FF /* three-dimensional-cardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C50638E12C6498E800B644FF /* three-dimensional-cardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50638F22C6498E800B644FF /* Build configuration list for PBXNativeTarget "three-dimensional-cardUITests" */;
+			buildPhases = (
+				C50638DE2C6498E800B644FF /* Sources */,
+				C50638DF2C6498E800B644FF /* Frameworks */,
+				C50638E02C6498E800B644FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50638E42C6498E800B644FF /* PBXTargetDependency */,
+			);
+			name = "three-dimensional-cardUITests";
+			productName = "three-dimensional-cardUITests";
+			productReference = C50638E22C6498E800B644FF /* three-dimensional-cardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50638C02C6498E700B644FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C50638C72C6498E700B644FF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C50638D72C6498E800B644FF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C50638C72C6498E700B644FF;
+					};
+					C50638E12C6498E800B644FF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C50638C72C6498E700B644FF;
+					};
+				};
+			};
+			buildConfigurationList = C50638C32C6498E700B644FF /* Build configuration list for PBXProject "three-dimensional-card" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50638BF2C6498E700B644FF;
+			productRefGroup = C50638C92C6498E700B644FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50638C72C6498E700B644FF /* three-dimensional-card */,
+				C50638D72C6498E800B644FF /* three-dimensional-cardTests */,
+				C50638E12C6498E800B644FF /* three-dimensional-cardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C50638C62C6498E700B644FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50638D32C6498E800B644FF /* Preview Assets.xcassets in Resources */,
+				C50638D02C6498E800B644FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50638D62C6498E800B644FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50638E02C6498E800B644FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50638C42C6498E700B644FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50638CE2C6498E700B644FF /* ContentView.swift in Sources */,
+				C50638CC2C6498E700B644FF /* three_dimensional_cardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50638D42C6498E800B644FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50638DD2C6498E800B644FF /* three_dimensional_cardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50638DE2C6498E800B644FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50638E72C6498E800B644FF /* three_dimensional_cardUITests.swift in Sources */,
+				C50638E92C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C50638DA2C6498E800B644FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C50638C72C6498E700B644FF /* three-dimensional-card */;
+			targetProxy = C50638D92C6498E800B644FF /* PBXContainerItemProxy */;
+		};
+		C50638E42C6498E800B644FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C50638C72C6498E700B644FF /* three-dimensional-card */;
+			targetProxy = C50638E32C6498E800B644FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C50638EA2C6498E800B644FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C50638EB2C6498E800B644FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50638ED2C6498E800B644FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"three-dimensional-card/Preview Content\"";
+				DEVELOPMENT_TEAM = C4K2HXA435;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seonghunJeon.three-dimensional-card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C50638EE2C6498E800B644FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"three-dimensional-card/Preview Content\"";
+				DEVELOPMENT_TEAM = C4K2HXA435;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seonghunJeon.three-dimensional-card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C50638F02C6498E800B644FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4K2HXA435;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seonghunJeon.three-dimensional-cardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/three-dimensional-card.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/three-dimensional-card";
+			};
+			name = Debug;
+		};
+		C50638F12C6498E800B644FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4K2HXA435;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seonghunJeon.three-dimensional-cardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/three-dimensional-card.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/three-dimensional-card";
+			};
+			name = Release;
+		};
+		C50638F32C6498E800B644FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4K2HXA435;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seonghunJeon.three-dimensional-cardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "three-dimensional-card";
+			};
+			name = Debug;
+		};
+		C50638F42C6498E800B644FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4K2HXA435;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seonghunJeon.three-dimensional-cardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "three-dimensional-card";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50638C32C6498E700B644FF /* Build configuration list for PBXProject "three-dimensional-card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50638EA2C6498E800B644FF /* Debug */,
+				C50638EB2C6498E800B644FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50638EC2C6498E800B644FF /* Build configuration list for PBXNativeTarget "three-dimensional-card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50638ED2C6498E800B644FF /* Debug */,
+				C50638EE2C6498E800B644FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50638EF2C6498E800B644FF /* Build configuration list for PBXNativeTarget "three-dimensional-cardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50638F02C6498E800B644FF /* Debug */,
+				C50638F12C6498E800B644FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50638F22C6498E800B644FF /* Build configuration list for PBXNativeTarget "three-dimensional-cardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50638F32C6498E800B644FF /* Debug */,
+				C50638F42C6498E800B644FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C50638C02C6498E700B644FF /* Project object */;
+}
