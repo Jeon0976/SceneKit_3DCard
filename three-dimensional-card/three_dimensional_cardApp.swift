@@ -12,6 +12,7 @@ struct three_dimensional_cardApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .background(Color.white)
         }
     }
 }

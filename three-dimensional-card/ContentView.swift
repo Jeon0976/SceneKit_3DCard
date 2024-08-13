@@ -9,16 +9,37 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Spacer()
+                
+                NavigationLink(destination: ThreeDimensionalBoxView()) {
+                    Text("3D Box")
+                }
+                .buttonStyle(CustomButtonStyle())
+                .padding()
+                
+                Spacer()
+                    .frame(height: 16)
+                
+                NavigationLink(destination: ProfileView()) {
+                    Text("SeongHun Jeon Profile")
+                }
+                .buttonStyle(CustomButtonStyle())
+                .padding()
+                
+                Spacer()
+            }
+            .frame(maxWidth: .infinity)
+            .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
+            .background(.white)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

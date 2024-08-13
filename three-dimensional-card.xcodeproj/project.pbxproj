@@ -14,6 +14,14 @@
 		C50638DD2C6498E800B644FF /* three_dimensional_cardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638DC2C6498E800B644FF /* three_dimensional_cardTests.swift */; };
 		C50638E72C6498E800B644FF /* three_dimensional_cardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638E62C6498E800B644FF /* three_dimensional_cardUITests.swift */; };
 		C50638E92C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638E82C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift */; };
+		C50638F62C64B3E800B644FF /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638F52C64B3E800B644FF /* ProfileViewModel.swift */; };
+		C50638F92C64D96600B644FF /* CharacterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638F82C64D96600B644FF /* CharacterCard.swift */; };
+		C50638FC2C64F2CD00B644FF /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50638FB2C64F2CD00B644FF /* CustomButtonStyle.swift */; };
+		C50638FE2C64FF8D00B644FF /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C50638FD2C64FF8D00B644FF /* Art.scnassets */; };
+		C50639022C65018200B644FF /* ThreeDimensionalBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50639012C65018200B644FF /* ThreeDimensionalBoxView.swift */; };
+		C50639042C65019200B644FF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50639032C65019200B644FF /* ProfileView.swift */; };
+		C50639072C65FAD000B644FF /* SphareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50639062C65FAD000B644FF /* SphareView.swift */; };
+		C50639092C6AFCE500B644FF /* CardThreeDimensional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50639082C6AFCE500B644FF /* CardThreeDimensional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		C50638E22C6498E800B644FF /* three-dimensional-cardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "three-dimensional-cardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50638E62C6498E800B644FF /* three_dimensional_cardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three_dimensional_cardUITests.swift; sourceTree = "<group>"; };
 		C50638E82C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three_dimensional_cardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C50638F52C64B3E800B644FF /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		C50638F82C64D96600B644FF /* CharacterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCard.swift; sourceTree = "<group>"; };
+		C50638FB2C64F2CD00B644FF /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		C50638FD2C64FF8D00B644FF /* Art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Art.scnassets; sourceTree = "<group>"; };
+		C50639012C65018200B644FF /* ThreeDimensionalBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDimensionalBoxView.swift; sourceTree = "<group>"; };
+		C50639032C65019200B644FF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C50639062C65FAD000B644FF /* SphareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphareView.swift; sourceTree = "<group>"; };
+		C50639082C6AFCE500B644FF /* CardThreeDimensional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardThreeDimensional.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,12 @@
 			children = (
 				C50638CB2C6498E700B644FF /* three_dimensional_cardApp.swift */,
 				C50638CD2C6498E700B644FF /* ContentView.swift */,
+				C50639012C65018200B644FF /* ThreeDimensionalBoxView.swift */,
+				C50638F52C64B3E800B644FF /* ProfileViewModel.swift */,
+				C50639032C65019200B644FF /* ProfileView.swift */,
+				C50638FA2C64F29600B644FF /* UIComponent */,
+				C50638F72C64B3EE00B644FF /* DataModel */,
+				C50638FD2C64FF8D00B644FF /* Art.scnassets */,
 				C50638CF2C6498E800B644FF /* Assets.xcassets */,
 				C50638D12C6498E800B644FF /* Preview Content */,
 			);
@@ -125,6 +147,24 @@
 				C50638E82C6498E800B644FF /* three_dimensional_cardUITestsLaunchTests.swift */,
 			);
 			path = "three-dimensional-cardUITests";
+			sourceTree = "<group>";
+		};
+		C50638F72C64B3EE00B644FF /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C50638F82C64D96600B644FF /* CharacterCard.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		C50638FA2C64F29600B644FF /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				C50638FB2C64F2CD00B644FF /* CustomButtonStyle.swift */,
+				C50639062C65FAD000B644FF /* SphareView.swift */,
+				C50639082C6AFCE500B644FF /* CardThreeDimensional.swift */,
+			);
+			path = UIComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +273,7 @@
 			files = (
 				C50638D32C6498E800B644FF /* Preview Assets.xcassets in Resources */,
 				C50638D02C6498E800B644FF /* Assets.xcassets in Resources */,
+				C50638FE2C64FF8D00B644FF /* Art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +299,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C50638CE2C6498E700B644FF /* ContentView.swift in Sources */,
+				C50639072C65FAD000B644FF /* SphareView.swift in Sources */,
+				C50638F92C64D96600B644FF /* CharacterCard.swift in Sources */,
+				C50639022C65018200B644FF /* ThreeDimensionalBoxView.swift in Sources */,
+				C50638F62C64B3E800B644FF /* ProfileViewModel.swift in Sources */,
+				C50638FC2C64F2CD00B644FF /* CustomButtonStyle.swift in Sources */,
+				C50639042C65019200B644FF /* ProfileView.swift in Sources */,
+				C50639092C6AFCE500B644FF /* CardThreeDimensional.swift in Sources */,
 				C50638CC2C6498E700B644FF /* three_dimensional_cardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
