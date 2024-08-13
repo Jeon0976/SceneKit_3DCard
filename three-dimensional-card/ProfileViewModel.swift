@@ -37,9 +37,9 @@ final class ProfileViewModel: ObservableObject {
         let lightNode = SCNNode()
         lightNode.light = SCNLight()
         lightNode.light?.type = .spot
-        lightNode.light?.intensity = 1500
+        lightNode.light?.intensity = 1300
         lightNode.position = SCNVector3(x: 3, y: 20, z: 30)
-        lightNode.look(at: SCNVector3(x: 0, y: 12, z: 10))
+        lightNode.look(at: SCNVector3(x: 0, y: 12, z: 12))
         
         if let cardNode = scene.rootNode.childNode(withName: "card", recursively: false) {
             let material = cardNode.geometry?.firstMaterial
