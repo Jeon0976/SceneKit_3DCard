@@ -19,8 +19,8 @@ final class ProfileViewModel: ObservableObject {
         name: "전성훈",
         birth: "1995-12-29",
         position: "iOS Developer",
-        email: "seonghun.jeon@illuminarea.com",
-        phone: "010-6601-0976"
+        email: "jsh097610@gmail.com",
+        phone: "010-0000-0000"
     )
     
     @Published var selectedColor: Color = .white
